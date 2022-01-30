@@ -36,7 +36,6 @@ const SingleProfile = () => {
                                 <p className="text-left">Email: {email && email}</p>
                                 <p>Company: {company && company?.name}</p>
                                 <p>Address: {address && address?.suite},{address && address?.street},{address && address?.city}</p>
-
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,6 @@ const Navbar = () => {
                 <button className="navbar-toggler toggleBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto mono-text">
                         <NavLink activeClassName="active" to="/home" className="nav-NavLink navigation-item px-3 home">Home</NavLink>
@@ -20,7 +19,6 @@ const Navbar = () => {
                         <NavLink activeClassName="active" to="/contact" className="nav-NavLink navigation-item  px-3">Contact</NavLink>
                     </div>
                 </div>
-
             </nav>
         </div>
     );
